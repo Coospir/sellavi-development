@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="//db.onlinewebfonts.com/c/3dad38b96d1a28deaba765fa3a16697f?family=GT+Eesti+Pro+Display" rel="stylesheet" type="text/css"/>
+    <title>Title</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Стилизаци таблиц в CSS3</title>
+    <style>
+        @import url("//db.onlinewebfonts.com/c/3dad38b96d1a28deaba765fa3a16697f?family=GT+Eesti+Pro+Display");
+
+        .container {
+            padding: 0px;
+        }
+        table {
+            /* border: 1px solid #ccc; */
+            border-spacing: 3px;
+            /* color: red; цвет текста */
+            /* font-family: ; шрифт */
+            font-family: Inter;
+            font-weight: 500;
+            font-family: "GT Eesti Pro Display", arial, sans-serif;
+        }
+
+        td, th{
+            padding: 5px; /* отступы между текстом и краями ячейки */
+        }
+
+        .collapsed1 th, td{
+            border-collapse: collapse;
+            border: 1px solid rgb(177, 177, 177);
+        }
+
+        .collapsed1{
+            border-collapse: collapse; /* рамка будет внутренняя */
+        }
+
+        input {
+            padding: 5px;
+            border: 0px;
+            border-bottom: 2px solid rgb(196, 196, 196);
+        }
+
+        input:focus {
+            outline: none !important;
+            border: 0px;
+        }
+
+        .char {
+            color:#808d9a;
+        }
+
+        .val {
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <!-- Вариант 1 без полей ввода -->
+    <table class="collapsed1">
+        <!-- Если нужно расширять таблицу, то просто дублируйте строку -->
+        <tr><th class="char">Дисплей</th><th class="val">5"</th></tr> <!-- Например вот эту -->
+        <tr><th class="char">Задняя камера</th><th class="val">43Мп</th></tr>
+        <tr><th class="char">Фронтальная камера</th><th class="val">24Мп</th></tr>
+        <tr><th class="char">Объем оперативной памяти</th><th class="val">4Гб</th></tr>
+        <tr><th class="char">Встроенной памяти</th><th class="val">256Гб</th></tr>
+        <tr><th class="char">NFC</th><th class="val">Есть</th></tr>
+        <tr><th class="char">Наушники</th><th class="val">В комплекте</th></tr>
+    </table>
+</div>
+
+
+
+</body>
+</html>
+</body>
+</html>
